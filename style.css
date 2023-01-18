@@ -1,3 +1,11 @@
+html {
+    margin:0;
+}
+
+
+
+
+/*//BUBBLE DESIGN//*/
 .custom-shape-divider-bottom-1674055709 {
     position: absolute;
     bottom: 0;
@@ -17,4 +25,17 @@
 
 .custom-shape-divider-bottom-1674055709 .shape-fill {
     fill: #BD10E0;
+}
+
+/*//INTRO//*/
+#intro{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro-list{
+    font-size:36px;
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
 }
