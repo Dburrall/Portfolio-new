@@ -36,6 +36,9 @@
     display:flex;
     justify-content: center;
     text-align: center;
+    position: fixed;
+    top: 20%;
+    left: 25%;
 }
 
 .intro-list{
