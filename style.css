@@ -10,27 +10,6 @@
 
 
 
-/*//BUBBLE DESIGN//*/
-.custom-shape-divider-bottom-1674055709 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1674055709 svg {
-    position: relative;
-    display: block;
-    width: calc(105% + 1.3px);
-    height: 264px;
-}
-
-.custom-shape-divider-bottom-1674055709 .shape-fill {
-    fill: #BD10E0;
-}
 
 /*//INTRO//*/
 #intro{
@@ -57,38 +36,20 @@ span{
     justify-content: center;
     text-align: center;
     margin-top:29rem;
-    color:#fff
+    color:#fff;
+    font-size:36px;
 }
 
-.bottom-wave{
-    transform: rotate(180deg);
-}
-#wave {
-    position: relative;
-    height: 4rem;
-    width: 100%;
-    background: #BD10E0;
-  }
-  #wave:before {
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 100%;
-    width: 100%;
-    height: 100px;
-    background-color: #BD10E0;
-    right: -55%;
-    top: 20px
-  }
-  
-  #wave:after {
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 100%;
-    width: 100%;
-    height: 200px;
-    background-color: #BD10E0;
-    left: -25%;
-    top: -20px;
+
+
+
+
+  /*//MEDIA QUERIES//*/
+  @media only screen and (max-width: 600px) {
+    
+    .custom-shape-divider-bottom-1674055709 svg {
+        width: 100%;
+        height: auto;
+      
+    }
   }
