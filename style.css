@@ -158,6 +158,8 @@ span{
 }
 
 .profile-pic{
+  animation-name:slidein;
+  animation-duration:2s;
     margin-left:500px;
     float:left;
     border-radius: 50%;
@@ -167,10 +169,7 @@ span{
     
 }
 
-.profile-pic{
-  animation-name:slidein;
-  animation-duration:2s;
-}
+
 
 @keyframes slidein {
   from {
@@ -192,6 +191,41 @@ span{
     flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom:20px;
+}
+
+
+/*//PROJECT SECTION//*/
+#projects{
+  display:block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 13rem;
+
+}
+
+#projects:before{
+
+  content: "";
+  display: block;
+  width: 640px;
+  height: 5px;
+  background: #BD10E0;
+  left: 0;
+  top: 186%;
+  position: absolute;
+
+
+}
+
+#projects:after {
+  content: "";
+  display: block;
+  width: 640px;
+  height: 5px;
+  background: #BD10E0;
+  right: 0;
+  top: 186%;
+  position: absolute;
 }
 
 

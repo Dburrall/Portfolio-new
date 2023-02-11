@@ -1,5 +1,5 @@
 function reveal() {
-    var reveals = document.querySelectorAll(".slideIn");
+    var reveals = document.querySelectorAll("profile-pic");
   
     for (var i = 0; i < reveals.length; i++) {
       var windowHeight = window.innerHeight;
