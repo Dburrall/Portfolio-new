@@ -164,17 +164,24 @@ span{
     height:380px;
     width:auto;
     border:4px solid #BD10E0
+    
 }
 
-@keyframes profile-pic {
+.profile-pic{
+  animation-name:slidein;
+  animation-duration:2s;
+}
+
+@keyframes slidein {
   from {
-    transform: translateX(0%);
+    transform: translateX(100%);
   }
 
   to {
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
 }
+
 
 
 .languages{
