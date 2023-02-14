@@ -191,6 +191,12 @@ span{
     padding-bottom:20px;
 }
 
+.vueIcon {
+  color:#fff;
+  max-height:134px;
+  width:auto;
+}
+
 
 /*//PROJECT SECTION//*/
 #projects{
@@ -337,12 +343,39 @@ span{
   bottom: 10%;
   padding: 10px 20px;
   border: 1px solid #fff;
+  font-weight:bold;
 }
 
 .hero-btn a {
   color: #fff;
 }
 
+
+/*//CONTACT SECTION//*/
+#contact{
+  display:block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10rem;
+  
+ 
+
+}
+
+.contact-links{
+  font-size:2.4rem;
+  
+  color:white;
+}
+
+.butn{
+  display:inline-block;
+  padding: 1rem 2rem;
+  border-radius:2px;
+  text-decoration:none;
+  color:white;
+
+}
 
 
 
