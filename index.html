@@ -16,6 +16,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/MotionPathPlugin.min.js"></script>
 <script src="slidein.js" defer></script>
 <script src="text.js" defer></script>
+<script src="filter.js" defer></script>
     <title>Full-Stack-Dan</title>
 
 </head>
@@ -96,16 +97,16 @@
 
         <h1 class="title">Websites & Projects</h1>
         <br>
-
-        <button id="projects-btn" role="button">Projects</button>
-        <button id="websites-btn" role="button">Websites</button>
-
+        <div id="myBtnContainer">
+        <button class="btn" role="button"  onclick="filterSelection('projects')">Projects</button>
+        <button class="btn" role="button" onclick="filterSelection('websites')">Websites</button>
+      </div>
 
         <!--Grid Container-->
         <div class="grid-container">
 
             <!--Website 1-->
-        
+        <div class="filterDiv websites">
 <div class="first hero">
     <img class="hero-profile-img" src="images/daytonDiscGolf.png" alt="">
     <div class="hero-description-bk"></div>
@@ -117,9 +118,9 @@
       <a href="https://luminous-squirrel-3c9fed.netlify.app/index.html">Visit</a>
     </div>
   </div>
-
+</div>
   <!--Website 2-->
-  
+  <div class="filterDiv websites">
   <div class="first hero">
     <img class="hero-profile-img" src="images/DansCoffee.png" alt="">
     <div class="hero-description-bk"></div>
@@ -132,8 +133,9 @@
       <a href="#">Visit</a>
     </div>
   </div>
-  
+</div>
   <!--Website 3-->
+  <div class="filterDiv websites">
   <div class="first hero">
     <img class="hero-profile-img" src="images/HollisKitchen.png" alt="">
     <div class="hero-description-bk"></div>
@@ -146,9 +148,9 @@
       <a href="">Visit</a>
     </div>
   </div>
-  
+</div>
   <!--Website 4 -->
-
+  <div class="filterDiv websites">
   <div class="first hero">
     <img class="hero-profile-img" src="images/Macros.png" alt="">
     <div class="hero-description-bk"></div>
@@ -160,7 +162,7 @@
       <a href="https://jolly-knuth-b8a5c6.netlify.app/#amenities">Visit</a>
     </div>
   </div>
-  
+</div>
 
 
 
