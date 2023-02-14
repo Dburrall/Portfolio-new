@@ -254,21 +254,8 @@ span{
   transform: skew(19deg, -9deg);
 }
 
-.hero-logo {
-  height: 80px;
-  width: 80px;
-  border-radius: 20px;
-  background-color: #fff;
-  position: absolute;
-  bottom: 30%;
-  left: 30px;
-  overflow:hidden;
-  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
-}
 
-.hero-logo img {
-  height: 100%;
-}
+
 
 .hero-description {
   position: absolute;
