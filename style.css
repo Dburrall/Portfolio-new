@@ -133,7 +133,7 @@ span{
     height: 5px;
     background: #BD10E0;
     left: 0;
-    top: 103%;
+    top: 104%;
     position: absolute;
   }
 
@@ -144,7 +144,7 @@ span{
     height: 5px;
     background: #BD10E0;
     right: 0;
-    top: 103%;
+    top: 104%;
     position: absolute;
   }
 
@@ -216,10 +216,12 @@ span{
   color:#00749C;
 }
 
-.vueIcon {
-  max-height:100px;
+.vueIcon, .railsIcon {
+  max-height:110px;
   width:auto;
 }
+
+
 
 
 /*//PROJECT SECTION//*/
@@ -239,7 +241,7 @@ span{
   height: 5px;
   background: #BD10E0;
   left: 0;
-  top: 178%;
+  top: 177%;
   position: absolute;
 
 
@@ -252,7 +254,7 @@ span{
   height: 5px;
   background: #BD10E0;
   right: 0;
-  top: 178%;
+  top: 177%;
   position: absolute;
 }
 
@@ -385,9 +387,8 @@ span{
   justify-content: center;
   text-align: center;
   margin-top: 10rem;
+  border-top: 3px solid #BD10E0;
   
- 
-
 }
 
 .contact-links{
@@ -412,6 +413,55 @@ span{
 
   /*//MEDIA QUERIES//*/
   @media only screen and (max-width: 600px) {
+
+    html,body{
+      overflow-x: hidden;
+  }
     
+    #intro{
+      margin-top:7rem;
+    }
+
+    .intro-list{
+      font-size:38px;
+    }
+
+    .arrow{
+      height:8vw;
+      width:8vw;
+    }
+
+    .title:before{
+      display:none;
+    }
+
+    .title:after{
+      display:none;
+    }
     
+    #projects:before{
+      display:none;
+    }
+
+    #projects:after{
+      display:none;
+    }
+
+    .profile-pic{
+      display:flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left:50px;
+    }
+    .languages{
+      display:flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    .hero-profile-img{
+      display:flex;
+      justify-content: center;
+      flex-direction:row ;
+    }
   }
