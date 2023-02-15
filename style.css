@@ -4,6 +4,7 @@
     font-family:'Quicksand';
     box-sizing: border-box;
     background: rgb(0,0,0);
+    scroll-behavior: smooth;
     
     
 }
@@ -13,7 +14,7 @@
   display: flex;
   justify-content: flex-start;
   position: fixed;
-
+  z-index: 10;
   top: 0;
   left: 0;
   width: 100%;
@@ -203,7 +204,7 @@ span{
   display:block;
   justify-content: center;
   text-align: center;
-  margin-top: 13rem;
+  margin-top: 11rem;
 
 }
 
@@ -215,7 +216,7 @@ span{
   height: 5px;
   background: #BD10E0;
   left: 0;
-  top: 186%;
+  top: 178%;
   position: absolute;
 
 
@@ -228,7 +229,7 @@ span{
   height: 5px;
   background: #BD10E0;
   right: 0;
-  top: 186%;
+  top: 178%;
   position: absolute;
 }
 
@@ -310,8 +311,12 @@ span{
   overflow:hidden;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
   margin: 30px;
+  transition: transform .2s; /* Animation */
 }
 
+.hero:hover {
+  transform: scale(1.2);
+}
 .hero-profile-img {
   height: 70%;
 }
@@ -364,7 +369,6 @@ span{
 
 .contact-links{
   font-size:2.4rem;
-  
   color:white;
 }
 
@@ -376,6 +380,32 @@ span{
   color:white;
 
 }
+
+#contact:before{
+
+  content: "";
+  display: block;
+  width: 690px;
+  height: 5px;
+  background: #BD10E0;
+  left: 0;
+  top: 305%;
+  position: absolute;
+
+
+}
+
+#contact:after {
+  content: "";
+  display: block;
+  width: 690px;
+  height: 5px;
+  background: #BD10E0;
+  right: 0;
+  top: 305%;
+  position: absolute;
+}
+
 
 
 
