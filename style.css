@@ -192,9 +192,32 @@ span{
     padding-bottom:20px;
 }
 
+.fa-html5{
+  color:#e34c26;
+}
+
+.fa-css3-alt{
+  color:#2965f1;
+}
+
+.fa-js{
+  color:#f0db4f;
+}
+
+.fa-react{
+  color:#61DBFB;
+}
+
+.fa-bootstrap{
+  color:#553C7B;
+}
+
+.fa-wordpress{
+  color:#00749C;
+}
+
 .vueIcon {
-  color:#fff;
-  max-height:134px;
+  max-height:100px;
   width:auto;
 }
 
@@ -381,30 +404,6 @@ span{
 
 }
 
-#contact:before{
-
-  content: "";
-  display: block;
-  width: 690px;
-  height: 5px;
-  background: #BD10E0;
-  left: 0;
-  top: 305%;
-  position: absolute;
-
-
-}
-
-#contact:after {
-  content: "";
-  display: block;
-  width: 690px;
-  height: 5px;
-  background: #BD10E0;
-  right: 0;
-  top: 305%;
-  position: absolute;
-}
 
 
 
