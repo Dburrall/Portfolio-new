@@ -31,7 +31,7 @@
  
 <!--Intro Section-->
     <section id="intro" class="container-fluid">
-        
+        <div class="introTxt">
         <ul class="intro-list">
         <li><h1>My name is Daniel Burrall,</h1></li>    
         <li><h1>I enjoy coffee and Lord Of the Rings,</h1></li>
@@ -39,10 +39,12 @@
         <div class="auto-type">
             <h1>& I love to <span class="auto-text"></span></h1>
         </div>
+      </div>
     </ul>
 
 
     </section>
+
     
     
 <!--About Section-->
@@ -86,11 +88,11 @@
         <h1 class="title">Websites & Projects</h1>
         <br>
         <div id="myBtnContainer">
-        <button class="btn" role="button"  onclick="filterSelection('projects')">Projects</button>
-        <button class="btn" role="button" onclick="filterSelection('websites')">Websites</button>
+          <button type="button" class="btn btn-dark" onclick="filterSelection('projects')">Projects</button>
+          <button type="button" class="btn btn-dark" onclick="filterSelection('websites')">Websites</button>
       </div>
 
-        <!--Grid Container-->
+        <!--Projects & Websites Container-->
         
           <div class="container text-center">
             <div class="row row-cols-auto">
@@ -240,9 +242,8 @@
   <div class="first hero">
     <img class="hero-profile-img" src="images/jsProject.png" alt="an image of macro tracker app">
     <div class="hero-description-bk"></div>
-   
     <div class="hero-description">
-      <p>A project I did from LearnJS that tracks users calories and charts them. This features API's, & lots of JS.</p>
+      <p>An App that tracks users calories and charts them. This features API's, & lots of JS.</p>
     </div>
     <div class="hero-btn">
       <a href="https://github.com/Dburrall/JS_macro_tracker">Code</a>
@@ -283,7 +284,7 @@
       <h1 class="title">Contact</h1>
 
 
-      <h2>Lets build something great together</h2>
+      <h2 style="color:#fff;">Lets build something great together</h2>
             
 
       <!--GITHUB LINK-->
@@ -323,7 +324,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://kit.fontawesome.com/754f7b471b.js" crossorigin="anonymous"></script>
     <script>
-        ScrollReveal().reveal('.title', {delay: 600})
+       
         ScrollReveal().reveal('.about-me', {delay: 600})
         ScrollReveal().reveal('.languages', {delay: 600})
     </script>
