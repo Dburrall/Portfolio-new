@@ -352,9 +352,9 @@ span{
   @media only screen and (max-width: 600px) {
 
     html,body{
-  
+  overflow-x: hidden;
   }
-    
+
     #intro{
       margin-top:7rem;
     }
@@ -370,7 +370,7 @@ span{
       display:flex;
       justify-content: center;
       flex-direction: column;
-      margin-left:50px;
+      margin-left:40px;
     }
     .languages{
       display:flex;
@@ -378,6 +378,7 @@ span{
       flex-direction: row;
     }
 
+   
     .hero-profile-img{
       display:flex;
       justify-content: center;
